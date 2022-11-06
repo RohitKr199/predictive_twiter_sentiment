@@ -139,3 +139,4 @@ if __name__ == '__main__':
     df['sentiment'] = np.array([tweet_analyzer.analyze_sentiment(tweet) for tweet in df['tweets']])
 
     print(df.head(10))
+
